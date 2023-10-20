@@ -14,6 +14,10 @@
 * 	Template Style 
 *
 * ======================================================= */
+
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 400;
@@ -323,11 +327,11 @@ figure {
 }
 
 .fh5co-cover {
-  height: 900px;
-  background-size: cover;
+ 
+  background-size:cover;
   background-repeat: no-repeat;
   position: relative;
-  width: 100%;
+  width: 100vw;
 }
 .fh5co-cover .overlay {
   z-index: 0;
