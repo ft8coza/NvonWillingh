@@ -155,7 +155,7 @@ figure {
   font-size: 14px;
   padding: 30px 10px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -163,9 +163,9 @@ figure {
 .fh5co-nav ul li a:hover,
 .fh5co-nav ul li a:focus,
 .fh5co-nav ul li a:active {
-  color: white;
+  color: black;
 }
-.fh5co-nav ul li.has-dropdown {
+/*.fh5co-nav ul li.has-dropdown {
   position: relative;
 }
 .fh5co-nav ul li.has-dropdown .dropdown {
@@ -224,7 +224,7 @@ figure {
 .fh5co-nav ul li.has-dropdown:hover a,
 .fh5co-nav ul li.has-dropdown:focus a {
   color: #fff;
-}
+}*/
 .fh5co-nav ul li.btn-cta a {
   color: #a87e66;
 }
@@ -327,8 +327,7 @@ figure {
 }
 
 .fh5co-cover {
- 
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   width: 100vw;
