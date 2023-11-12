@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/qfpuksur/public_html/ft8.co.za/nvonwillingh
+    - export DEPLOYPATH=/home/qfpuksur/public_html/nvwweddings
     - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R fonts $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
